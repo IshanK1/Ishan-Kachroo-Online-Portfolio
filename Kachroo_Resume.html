@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<!--This code will display a navbar at the top of the page. Users can navigate between the different pages using the navbar instead of going back to the PHP everytime they want to view a different page. The navbar is in a container so that it doesn't span the whole screen, and the "active element" has been applied to the nav-item the user has selected, so that the user will see the page they are on highlighted in blue. The class "nav-pills" is used to syle how a nav-item looks when selected, and provides a box sourounding the item when selected. The class "nav-fill" is used so that the navbar will fill out the entire container, instead of leaving empty space to the right.  -->
+<body>
+	<div class="container">
+	  <nav class="nav nav-pills nav-fill">
+			<a href="index.html" class=" nav-item nav-link"> Home</a>
+			<a href="Kachroo_AboutMe.html" class=" nav-item nav-link">About Me</a>
+			<a href="Kachroo_ContactMe.html" class="nav-item nav-link">Contact Me</a>
+			<a href="Kachroo_Projects.html" class="nav-item nav-link">Projects</a>
+			<a href="Kachroo_Resume.html" class="nav-item nav-link active">Resume </a>
+	</div>
+
+	<div class="jumbotron text-center">
+		<h1><strong>My Resume</strong></h1>
+    <p1></p1>
+  </div>
+</body>
+
+<div class="row">
+  <div class="col-sm-3">
+  </div>
+  <div class="col-sm-6">
+    <h2>Career Goals</h2>
+    <p1>
+    In the future, I plan to study and work in either computer or marine engineering.  
+    <p1>
+    <h2>Education</h2>
+    <p1>
+    Currently, I am a freshman at Dublin high school, in Dublin CA. I am taking a Computer Science Principles course at the high school, and I plan to apply for more engineering courses in the future. Some colleges I am interested in going to are UC Davis,UC Santa Cruz, Washington State, or the University of Texas at Austin. 
+    </p1>
+    <h2>Work Experience</h2>
+    <p1>
+    I have some volunteering experience. I volunteered to run a carnival booth for John Green Elementary's Halloween fair in the October of 2018. In the August of 2019, I volunteered to help run a spiritwear booth during John Dougherty Elementary's fall registration.
+    <p1>
+    <h2>Languages</h2
+    <p1>
+    I speak fluent English, and I am somewhat literate in Hindi and Kashmiri. Currently, I am learning Spanish in school. I am in the process of learning coding languages HTML, CSS, and Python. 
+    </p1>
+  </div>
+</div>
+
+<br>
+<!--The code in this footer will display an emphasized grey section with three clickable images. This is because I used the "Jumbotron" class on the highest ranking div in the footer.The links are images becuase I put the <img> element (provides image) inside the <a> element (provides regular link). The image "my gmail" will bring users to gmail where they can then contact me. The image "My Insta" brings users to my instagram page where they can contact me and see what I've been doing. The last image titled "THE HIGHSCHOOL" will bring users to the dusd website-->
+<footer>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <img src="Images/logo_gmail_color_112in128dp.png" width="150" height="100"alt=" my gmail"></a>
+      </div>
+      <div class="col-sm-3 container">
+        <a href="https://www.instagram.com/notoesgang/"> <img src="Images/Instagram.jpeg" width="150" height="100"alt="My Insta"></a>
+      </div>
+      <div class= "col-sm-3 container"></div>
+      <div class="col-sm-3 float-right container">
+        <a href="https://www.dublin.k12.ca.us/Domain/132"> <img src="Images/DHS2.png" width="150" height="120" alt="THE HIGHSCHOOL"></a>
+      </div>
+    </div>
+  </div>
+</footer> 

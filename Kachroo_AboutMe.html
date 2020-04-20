@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- This header links to Bootstrap, which I have used in the page to make a jumbotron, a navbar, etc.-->
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--This code will display a navbar at the top of the page. Users can navigate between the different pages using the navbar instead of going back to the PHP everytime they want to view a different page. The navbar is in a container so that it doesn't span the whole screen, and the "active element" has been applied to the nav-item the user has selected, so that the user will see the page they are on highlighted in blue. The class "nav-pills" is used to syle how a nav-item looks when selected, and provides a box sourounding the item when selected. The class "nav-fill" is used so that the navbar will fill out the entire container, instead of leaving empty space to the right.  -->
+<body>
+	<div class="container">
+		<nav class="nav nav-pills nav-fill">
+			<a href="index.html" class=" nav-item nav-link"> Home</a>
+			<a href="Kachroo_AboutMe.html" class=" nav-item nav-link active">About Me</a>
+			<a href="Kachroo_ContactMe.html" class="nav-item nav-link">Contact Me </a>
+			<a href="Kachroo_Projects.html" class="nav-item nav-link">Projects</a>
+			<a href="Kachroo_Resume.html" class="nav-item nav-link">Resume</a>
+	</div>
+	<!--This code displays an emphasized grey section where the header 'Online Portfolio' and paragraph 'Ishan Kachroo are displayed. I have used the <strong> element to emphasize the header, and the 'jumbotron' class to emphasize the header and paragraph.'-->
+	<div class="jumbotron text-center">
+		<h1><strong>Online Portfolio</strong></h1>
+    <p1> Ishan Kachroo</p1>
+  </div>
+  <!--This code displays the first paragraph of me about me page, and displays an image of myself restricted to 130 x 130 pixels. I have used the 'row' class on the highest ranking div in order to place the paragraph and image side by side --> 
+  <section>
+    <div class="container row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-3">
+        <img src="Images/IMG_4918.JPG"  class="img-thumbnail" width="130" height="130"> 
+      </div>
+     <div class="col-sm-6">
+      <p1>Welcome to my website! Currently, I am a freshman at Dublin High School. In the future, I plan to finish highschool and get a master's degree somewhere in computer science. I do my best to learn and stay involved in school to help accomplish this. I would like to go into computer science becuase of how important and widespread it will be in the future, and I also think it's really gratifying to see a program you have made work and perform like you want it to.
+      </p1>
+    </div>
+   </div>
+    
+  <div class="container">
+  </div>
+<br>
+  <div class="container row">
+   <div class="col-sm-6">
+   </div>
+   <div class="col-sm-6">
+     <p1> I try to be diligent when writing and formating my code. I have swim practice for the Pleasanton Seahwaks Monday-Thursday, and I dependably never miss a meeting. </p1>
+   </div>
+  </div>
+  <br>
+ <div class="container row">
+   <div class="col-sm-6">
+   </div>
+   <div class="col-sm-6">
+     <p1> I am excited to be here at DHS. I have not been in high school very long, but so far I have been organized enough to have all A's and stay involved with my subjects.  </p1>
+   </div>
+  </div>
+</section>
+
+<br>
+  <div class="container row">
+   <div class="col-sm-6">
+   </div>
+   <div class="col-sm-6">
+     <p1>Thank you for taking the time to read my "about me" page, please feel free to explore the rest of my site!  </p1>
+   </div>
+  </div>
+</section>
+</body>
+<br>
+<!--The code in this footer will display an emphasized grey section with three clickable images. This is because I used the "Jumbotron" class on the highest ranking div in the footer.The links are images becuase I put the <img> element (provides image) inside the <a> element (provides regular link). The image "my gmail" will bring users to gmail where they can then contact me. The image "My Insta" brings users to my instagram page where they can contact me and see what I've been doing. The last image titled "THE HIGHSCHOOL" will bring users to the dusd website-->
+<footer>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <img src="Images/logo_gmail_color_112in128dp.png" width="150" height="100"alt=" my gmail"></a>
+      </div>
+      <div class="col-sm-3 container">
+        <a href="https://www.instagram.com/notoesgang/"> <img src="Images/Instagram.jpeg" width="150" height="100"alt="My Insta"></a>
+      </div>
+      <div class= "col-sm-3 container"></div>
+      <div class="col-sm-3 float-right container">
+        <a href="https://www.dublin.k12.ca.us/Domain/132"> <img src="Images/DHS2.png" width="150" height="120" alt="THE HIGHSCHOOL"></a>
+      </div>
+    </div>
+  </div>
+</footer>   

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--This header links to bootstrap, which I have used to insert a jumbotron, customize the navbar, etc. -->
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<!--This code will display a navbar at the top of the page. Users can navigate between the different pages using the navbar instead of going back to the PHP everytime they want to view a different page. The navbar is in a container so that it doesn't span the whole screen, and the "active element" has been applied to the nav-item the user has selected, so that the user will see the page they are on highlighted in blue. The class "nav-pills" is used to syle how a nav-item looks when selected, and provides a box sourounding the item when selected. The class "nav-fill" is used so that the navbar will fill out the entire container, instead of leaving empty space to the right.  -->
+<body>
+	<div class="container">
+		<nav class="nav nav-pills nav-fill">
+			<a href="index.html" class=" nav-item nav-link"> Home</a>
+			<a href="Kachroo_AboutMe.html" class=" nav-item nav-link">About Me</a>
+			<a href="Kachroo_ContactMe.html" class="nav-item nav-link active">Contact Me</a>
+			<a href="Kachroo_Projects.html" class="nav-item nav-link">Projects</a>
+			<a href="Kachroo_Resume.html" class="nav-item nav-link">Resume </a>
+	</div>
+
+	<div class="jumbotron text-center">
+		<h1 class="text-center"><strong><center>Contact Me</center></strong></h1>
+   </div>
+</body>
+
+<div class="row">
+  <div class="col-sm-3">
+  </div>
+  <h3 class=" col-sm-6">If you need to contact me, please email <i>kachroo6751@mydusd.org</i> for my school account, or <i>iskachroo@gmail.com</i> for my personal account.</h3>
+</div>
+<br>
+<br>
+<!--The code in this footer will display an emphasized grey section with three clickable images. This is because I used the "Jumbotron" class on the highest ranking div in the footer.The links are images becuase I put the <img> element (provides image) inside the <a> element (provides regular link). The image "my gmail" will bring users to gmail where they can then contact me. The image "My Insta" brings users to my instagram page where they can contact me and see what I've been doing. The last image titled "THE HIGHSCHOOL" will bring users to the dusd website-->
+<footer>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <img src="Images/logo_gmail_color_112in128dp.png" width="150" height="100"alt=" my gmail"></a>
+      </div>
+      <div class="col-sm-3 container">
+        <a href="https://www.instagram.com/notoesgang/"> <img src="Images/Instagram.jpeg" width="150" height="100"alt="My Insta"></a>
+      </div>
+      <div class= "col-sm-3 container"></div>
+      <div class="col-sm-3 float-right container">
+        <a href="https://www.dublin.k12.ca.us/Domain/132"> <img src="Images/DHS2.png" width="150" height="120" alt="THE HIGHSCHOOL"></a>
+      </div>
+    </div>
+  </div>
+</footer>   

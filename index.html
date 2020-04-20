@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<!--This code provides some title metadata and links to the CSS framework "Bootstrap". Linking to Bootstrap is needed so that Bootstrap can be used to style the page. For example, the navbar in this page uses bootstap classes to look the way it does.-->
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+</head>
+
+ <!--The code (below) displays a navbar at the top of the page. Users can navigate between the different pages using the navbar instead of going back to the PHP everytime they want to view a different page. The navbar is in a container so that it doesn't span the whole screen, and the "active element" has been applied to the nav-item the user has selected, so that the user will see the page they are on highlighted in blue. The class "nav-pills" is used to syle how a nav-item looks when selected, and provides a box sourounding the item when selected. The class "nav-fill" is used so that the navbar will fill out the entire container, instead of leaving empty space to the right.  -->
+<body>
+  <div class="container"> 
+    <nav class="nav nav-pills nav-fill">
+      <a href="index.html" class=" nav-item nav-link active"> Home</a>
+      <a href="Kachroo_AboutMe.html"class=" nav-item nav-link">About Me</a>
+      <a href="Kachroo_ContactMe.html"class="nav-item nav-link">Contact Me </a>
+      <a href="Kachroo_Projects.html"class="nav-item nav-link">Projects</a>
+      <a href="Kachroo_Resume.html"class="nav-item nav-link">Resume</a> 
+  </div>
+   <!--The code will display an emphasized grey section with the header "Ishan's Engineering Portfolio",  the text "Welcome to my website! Currently, I am a freshman at Dublin High School. In...", and a link labled "Continue Reading...". The "Continue Reading..." link will take the user to the "About Me" when clicked. -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Ishan's Engineering Portfolio</h1>
+      <p1>Welcome to my website! Currently, I am a freshman at Dublin High School. In...<br></p1>
+      <a href="Kachroo_AboutMe.html" <p1>Continue Reading...</p1></a>
+    </div>
+  </div>
+ <!--The div above inserts a container below the jumbotron in order to input a space between the jumbotron and the 4 content cards. -->
+  <div class="container">
+  <!--This code will display information regarding the John green Hallooween fair. It will display the headers "Halloween Fair Volunteering", "John Green Elementary", and "October, 2018". It will display the paragraph "I volunteered to run a carnival booth for John Green Elmentary's Halloween fair... ". It also displays a clickable link that brings users to the "resume" page where they can read more about the experience. An image will be displayed, and restricted to be 220 by 220 pixels.  -->
+  <div class="container row" >
+    <div class="card col-sm-3">
+      <h7><strong>Halloween Fair Volunteering</strong></h7>
+      <h3>John Green Elementary</h3>
+      <h7>October, 2018</h7>
+      <p1>I volunteered to run a carnival booth for John Green Elmentary's Halloween fair... 
+      </p1>
+      <a href="Kachroo_Resume.html">Read More </a>
+    </div>
+    <div class="col-sm-3">
+      <img class="card-img-right"src="Images/John.jpeg" alt="John Green Image" height="220" width="220">
+    </div>
+    <!--The code will show information on my scratch project. It will display the headers "Project", "Scratch Project", and "CSP". It will display the paragraph "This is the first project I worked on in CSP, built using scratch...". It also displays a clickable link that brings users to my "projects" page where they can read more about the experience. An image will be displayed, and restricted to be 220 by 220 pixels.  -->
+    <div class="card col-sm-3">
+      <h7><b>Project</b></h7>                      
+      <h3>Scratch Project</h3>
+      <h7>CSP</h7>
+      <p1> This is the first project I worked on in CSP, built using scratch... </p1>
+      <a href="Kachroo_Projects.html">Read More
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <img src="Images/Screen Shot 2019-11-20 at 8.28.16 PM.png" alt="Scratch Image" height="220" width="285">
+    </div>
+  </div>
+  <!--This code will display information regarding my volunteering in John Dougherty ELementary's Fall registration. It will display the headers "Dougherty Volunteering", "John Dougherty Elementary", and "August, 2019". It will display the paragraph "I volunteered to help run a spiritwear booth during John Dougherty Elementary's fall registration...". It also displays a clickable link that brings users to the "resume" page where they can read more about the experience. An image will be displayed, and restricted to be 220 by 220 pixels.  -->
+  <div class="container row">
+    <div class="card col-sm-3">
+      <h7><strong>Dougherty Volunteering</strong></h7>
+        <h3>John Dougherty Elementary</h3>
+        <h7>August, 2019</h7>
+        <p1>I volunteered to help run a spiritwear booth during John Dougherty Elementary's fall registration...</p1>
+        <a href="Kachroo_Resume.html">Read More </a>
+    </div>
+    <div class="col-sm-3">
+      <img src="Images/Dougherty.png" alt="Dougherty Image" height="220" width="220">
+    </div>
+    <!--The code will show information on my MIT app inventor project. It will display the headers "Project", "MIT App Inventor Project", and "CSP". It will display the paragraph "This project was made in MIT app inventor. It's much larger than my earlier scratch...". It also displays a clickable link that brings users to my "projects" page where they can read more about the experience. An image will be displayed, and restricted to be 220 by 220 pixels.  -->
+    <div class="card col-sm-3">
+      <h7><strong>Project</strong></h7>
+      <h3>MIT App Inventor Project</h3>
+      <h7>CSP</h7>
+      <p1> This project was made in MIT app inventor. It's much larger than my earlier scratch...
+      </p1>
+      <a href="Kachroo_Projects.html">Read More </a>
+    </div>
+    <div class="col-sm-3">
+      <img src="Images/MIT.jpeg" alt="colgate what" height="220" width="285">
+    </div>
+  </div>
+  </div>
+</body>
+<!--The code in this footer will display an emphasized grey section with three clickable images. This is because I used the "Jumbotron" class on the highest ranking div in the footer.The links are images becuase I put the <img> element (provides image) inside the <a> element (provides regular link). The image "my gmail" will bring users to gmail where they can then contact me. The image "My Insta" brings users to my instagram page where they can contact me and see what I've been doing. The last image titled "THE HIGHSCHOOL" will bring users to the dusd website-->
+<footer class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <img src="Images/logo_gmail_color_112in128dp.png" width="150" height="100"alt=" my gmail"></a>
+      </div>
+      <div class="col-sm-3 container">
+        <a href="https://www.instagram.com/notoesgang/"> <img src="Images/Instagram.jpeg" width="150" height="100"alt="My Insta"></a>
+      </div>
+      <div class= "col-sm-3 container"></div>
+      <div class="col-sm-3 float-right container">
+        <a href="https://www.dublin.k12.ca.us/Domain/132"> <img src="Images/DHS2.png" width="150" height="120" alt="THE HIGHSCHOOL"></a>
+      </div>
+    </div>
+  </div>
+</footer>   
+</html>

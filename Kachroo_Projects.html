@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<!--This code will display a navbar at the top of the page. Users can navigate between the different pages using the navbar instead of going back to the PHP everytime they want to view a different page. The navbar is in a container so that it doesn't span the whole screen, and the "active element" has been applied to the nav-item the user has selected, so that the user will see the page they are on highlighted in blue. The class "nav-pills" is used to syle how a nav-item looks when selected, and provides a box sourounding the item when selected. The class "nav-fill" is used so that the navbar will fill out the entire container, instead of leaving empty space to the right.  -->
+<body>
+	<div class="container">
+		<nav class="nav nav-pills nav-fill">
+			<a href="index.html" class=" nav-item nav-link"> Home</a>
+			<a href="Kachroo_AboutMe.html" class=" nav-item nav-link ">About Me</a>
+			<a href="Kachroo_ContactMe.html" class="nav-item nav-link">Contact Me </a>
+			<a href="Kachroo_Projects.html" class="nav-item nav-link active">Projects</a>
+			<a href="Kachroo_Resume.html" class="nav-item nav-link">Resume</a>
+	</div>
+
+	<div class="jumbotron text-center">
+		<h1><strong>Projects</strong></h1>
+    <p1>Here are some projects I've worked on!</p1>
+  </div>
+</body>
+
+
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-6">
+    <h2>Scratch Project</h2>
+    <p1> This is the first project I worked on in CSP (Computer Science Principles). It is built using Scratch. For this project, my partner and I built an interactive story game. Players control Marco, a forgetful student that, unfortunately, didn't study for his test. Players have to go between 2 unique settings and a minigame in order to finish the story. I coded the minigame and a section of a setting. My partner and I had to thoroughly coordinate and communicate to get the different stages to fit together and run properly. Over the course of this project, I learned how to communicate my ideas better and think logically to solve continuity errors between the different stages.</p1>
+  </div>
+  <img align="left" src="Images/Screen Shot 2019-11-20 at 8.28.16 PM.png" width="400" height="300"></img>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-sm-2"></div>
+  <div class="col-sm-6">
+    <h2>MIT App Inventor Project</h2>
+    <p1> This project was made in MIT App Inventor. It is much larger than my earlier Scratch project, and the language was more challenging for me to learn and use. For this project, my partner and I made a variation of App inventor's "Quiz Me tutorial". We added our own questions as well as a home screen, score system, the ability to replay, and multiple choice questions. I worked on coding new questions, the score system, and part of the home screen.  As the project grew larger, my partner and I learned the importance of properly planning out our work and staying commited to solving problems. </p1>
+  </div>
+  <img align="left" src="Images/Screenshot 2019-12-02 at 8.47.41 AM.png" width="400" height="300"></img>
+</div>
+<br>
+<!--The code in this footer will display an emphasized grey section with three clickable images. This is because I used the "Jumbotron" class on the highest ranking div in the footer.The links are images becuase I put the <img> element (provides image) inside the <a> element (provides regular link). The image "my gmail" will bring users to gmail where they can then contact me. The image "My Insta" brings users to my instagram page where they can contact me and see what I've been doing. The last image titled "THE HIGHSCHOOL" will bring users to the dusd website-->
+<footer>
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <img src="Images/logo_gmail_color_112in128dp.png" width="150" height="100"alt=" my gmail"></a>
+      </div>
+      <div class="col-sm-3 container">
+        <a href="https://www.instagram.com/notoesgang/"> <img src="Images/Instagram.jpeg" width="150" height="100"alt="My Insta"></a>
+      </div>
+      <div class= "col-sm-3 container"></div>
+      <div class="col-sm-3 float-right container">
+        <a href="https://www.dublin.k12.ca.us/Domain/132"> <img src="Images/DHS2.png" width="150" height="120" alt="THE HIGHSCHOOL"></a>
+      </div>
+    </div>
+  </div>
+</footer> 
